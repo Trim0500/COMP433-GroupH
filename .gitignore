@@ -203,4 +203,6 @@ pyrightconfig.json
 .history
 .ionide
 
+Datasets
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,jupyternotebooks,python
