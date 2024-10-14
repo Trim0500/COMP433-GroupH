@@ -15,14 +15,13 @@
 
 ### Required Libraries
 - [`pandas`](https://pandas.pydata.org/docs/index.html)
-- [`datasets`](https://huggingface.co/docs/hub/datasets-usage)
 - [`keras_nlp`](https://keras.io/api/keras_nlp/models/)
 
 ---
 
 ### Datasets
-- [All Languages](https://huggingface.co/datasets/facebook/xnli/viewer)
-- [English Only](https://huggingface.co/datasets/facebook/xnli/viewer/en)
+- [Source Train Set](https://www.kaggle.com/competitions/contradictory-my-dear-watson/data?select=train.csv)
+- [Source Test Set](https://www.kaggle.com/competitions/contradictory-my-dear-watson/data?select=test.csv)
 - Utilize the `[COMP433]_Generate_Datasets.ipynb` notebook to download and prepare the data
 
 ---
