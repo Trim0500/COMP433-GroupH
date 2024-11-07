@@ -1,0 +1,2 @@
+learning rate: 4e-5
+batch sizes, 28
