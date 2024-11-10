@@ -1,2 +1,7 @@
+BERT Multi:
 learning rate: 4e-5
-batch sizes, 28
+batch size: 28
+
+BERT EN:
+learning rate: 4e-5
+batch size: 36
