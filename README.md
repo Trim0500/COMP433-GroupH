@@ -1,7 +1,7 @@
 ---
 ---
 
-# COMP432 Project
+# COMP433 Project
 
 ---
 
