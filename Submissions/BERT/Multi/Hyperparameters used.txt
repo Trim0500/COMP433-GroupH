@@ -1,0 +1,3 @@
+BERT Multi:
+learning rate: 4e-5
+batch size: 28

@@ -1,0 +1,4 @@
+ELECTRA Multi:
+learning rate: 7.990807100363313e-05
+dropout: 0.5
+batch size: 32
