@@ -38,4 +38,9 @@
     - **[Model Card](https://github.com/google-research/electra)**
 
 ---
+
+### Model Weights
+- [Google Drive Folder](https://drive.google.com/drive/folders/1FnHiWtmtQkssDtptO4cd9Zknub9hEn6H?usp=sharing)
+
+---
 ---
