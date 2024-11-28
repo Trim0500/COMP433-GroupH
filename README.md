@@ -15,8 +15,6 @@
 - ### **[`numpy`](https://numpy.org/install/)**
 - ### **[`sklearn`](https://scikit-learn.org/stable/install.html)**
 - ### **[`keras`](https://keras.io/getting_started/)**
-    - **Note:** This project uses pytorch as the backend for keras. When installing keras, **you may have trouble trying to change the backend** as it tries to find the `tensorflow` module when importing. Find the `keras.config` file (usually stored in `~/Users/{username}/.keras`) and change the `backend` property to `"torch"`, and then restart the notebook runtime.
-    - [Setup Aid](https://keras.io/getting_started/intro_to_keras_for_engineers/)
 - ### **[`keras_nlp`](https://keras.io/guides/keras_nlp/getting_started/)**
 - ### **[`keras-tuner`](https://keras.io/keras_tuner/getting_started/)**
 ---
