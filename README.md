@@ -1,6 +1,28 @@
 # COMP433 Project
-- **[High level description/presentation of the project]**
----
+
+# Project Description
+
+This project uses deep learning in natural language processing to solve a multilingual natural language inference task using transformer-based architectures. This task is the Kaggle challenge "Contradictory, My Dear Watson", which can be accessed here: https://www.kaggle.com/competitions/contradictory-my-dear-watson. The primary objective is to predict the logical relationship between pairs of sentences across multiple languages, categorizing them as entailment, contradiction, or neutrality.
+
+We implemented and fine-tuned four transformer models for the NLI task:
+- **BERT English:** Fine-tuned for sentence pairs in English.
+- **BERT Multilingual:** Fine-tuned to handle sentence pairs across 15 languages.
+- **ELECTRA English:** Fine-tuned for sentence pairs in English.
+- **ELECTRA Multilingual:** Fine-tuned to handle sentence pairs across 15 languages.
+
+## Results
+
+### BERT Results
+- **BERT English:** Achieved a test accuracy of 58% on the Kaggle dataset.
+- **BERT Multilingual:** Outperformed BERT EN, achieving a test accuracy of 60%.
+
+### ELECTRA Results
+- **ELECTRA English:** Achieved a test accuracy of 59%.
+- **ELECTRA Multilingual:** Achieved a test accuracy of 59%.
+
+### Key Observations
+- **Neutral Class Challenge:** Across all models, the neutral class was consistently misclassified. This issue is due to the lack of distinctive context in neutral sentences, making it harder for models to capture their semantic meaning.
+- **Data Limitations:** The relatively small Kaggle dataset size limited model generalization.
 ---
 ## Authors
 - ### **Tristan Lafleur (40245238)**
