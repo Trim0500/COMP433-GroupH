@@ -59,7 +59,11 @@ We implemented and fine-tuned four transformer models for the NLI task:
 ---
 ---
 ### Training and Validating the Model
-- **[Instruction on how to train/validate your model]**
+- Run the BERT [EN](https://github.com/Trim0500/COMP433-GroupH/blob/main/%5BCOMP433%5D_BERT_EN_MODEL.ipynb), [Multilingual](https://github.com/Trim0500/COMP433-GroupH/blob/main/%5BCOMP433%5D_BERT_Multi_lingual_Model.ipynb) or ELECTRA [EN](https://github.com/Trim0500/COMP433-GroupH/blob/main/%5BCOMP433%5D_ELECTRA_EN_Model.ipynb), [Multilingual](https://github.com/Trim0500/COMP433-GroupH/blob/main/%5BCOMP433%5D_ELECTRA_Multi_Model.ipynb) notebooks on [google collab](https://colab.research.google.com/).
+- Ensure that the session runtime utilizes GPU.
+- Ensure that the necassary [training dataset](https://github.com/Trim0500/COMP433-GroupH/tree/main/Datasets) .csv file is added to the running notebook's current work directory.
+- EN models use _train_en.csv_ and Multilingual models use _train_all_languages.csv_.
+- Weights found after training and after hyperparameter search tuning are both saved on collab session.
 ---
 ---
 ### How to Test the Pre-trained Models
