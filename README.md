@@ -67,7 +67,10 @@ We implemented and fine-tuned four transformer models for the NLI task:
 ---
 ---
 ### How to Test the Pre-trained Models
-- **[Instructions on how to run the pre-trained model on the provided sample test dataset]**
+- First join the Kaggle competition for [Contradictory, My Dear Watson](https://www.kaggle.com/competitions/contradictory-my-dear-watson) and click on Submit Prediction.
+- After that, import the test submission notebook that you wish to test on, for BERT [EN](https://github.com/Trim0500/COMP433-GroupH/blob/main/%5BCOMP433%5D_BERT_EN_Test_Set_Submission.ipynb), [Multilingual](https://github.com/Trim0500/COMP433-GroupH/blob/main/%5BCOMP433%5D_BERT_Multi_Test_Set_Submission.ipynb) or ELECTRA [EN](https://github.com/Trim0500/COMP433-GroupH/blob/main/%5BCOMP433%5D_ELECTRA_EN_Test_Set_Submission.ipynb), [Multilingual](https://github.com/Trim0500/COMP433-GroupH/blob/main/%5BCOMP433%5D_ELECTRA_Multi_Test_Set_Submission.ipynb).
+- Change the model accelarator to use GPU.
+- Save and Run the models.
 ---
 ---
 ### Obtaining the Datasets
